@@ -1,0 +1,34 @@
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.zip
+package/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Packaging
+package/
+lambda-deployment.zip
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Local test files
+event.json
+response.json
+
+# Secrets
+.env
+*.pem
